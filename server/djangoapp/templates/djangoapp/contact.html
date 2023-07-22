@@ -1,0 +1,31 @@
+<style>
+  .contact-text {
+    font-size: 20px;
+    font-weight: 500;
+  }
+</style>
+{% extends 'djangoapp/base.html' %} {% block content %}
+
+<div class="contact">
+  <h1 class="my-4">Contact Us</h1>
+
+  <h2>Address:</h2>
+  <p>
+    123 Main Street, <br />
+    Cityville,<br />
+    North America,<br />
+    Zip Code: 12345
+  </p>
+
+  <h2>Phone:</h2>
+  <p>
+    Sales Enquiries: +1 (555) 555-1234 <br />
+    Service & Support: +1 (555) 555-5678
+  </p>
+  <p class="contact-text">
+    Feel free to reach out to us with any inquiries or to schedule a visit. We
+    are here to assist you with all your automotive needs. Thank you for
+    considering Best Cars Dealership, and we look forward to serving you!
+  </p>
+</div>
+{% endblock %}
